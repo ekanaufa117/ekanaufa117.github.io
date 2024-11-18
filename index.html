@@ -22,6 +22,28 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-xxl navbar-dark bg-dark" aria-label="Seventh navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Expand at xxl</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleXxl" aria-controls="navbarsExampleXxl" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleXxl">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Work">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Edu">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="homepage">
     <div class="row mx-0 my-2">
         <!-- left coloumn start -->
@@ -73,7 +95,7 @@
       <div class="col-lg-8 col-md-8 col-12">
         <div class="card">
           <div class="card-body">
-            <h3><i class="fas fa-suitcase mr-3 my-4"></i> TESTWK</h3>
+            <h3 id="Work"><i class="fas fa-suitcase mr-3 my-4"></i> TESTWK</h3>
             <h6>WEX1 /COMPANY1</h6>
             <h6><i class="fas fa-calendar mr-3 my-2"></i> 2022 - 2023</h6>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem enim beatae totam ab est, earum deserunt corporis quas saepe deleniti hic omnis dolore eius eligendi sit reiciendis eaque magnam quod quos provident tenetur tempore? Explicabo deleniti fugit dolores? Soluta, commodi.</p>
@@ -88,7 +110,7 @@
         <!-- education start -->
         <div class="card mt-2">
           <div class="card-body">
-            <h3><i class="fas fa-certificate mr-3 my-4"></i> Education</h3>
+            <h3 id="Edu"><i class="fas fa-certificate mr-3 my-4"></i> Education</h3>
             <h6>JHS</h6>
             <h6><i class="fas fa-school my-2 mr-2"></i> 2015 - 2018</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, harum?</p>
@@ -103,10 +125,13 @@
            </div>
         </div>
         <!-- education end -->
-        
-        
       </div>
     </div>
+    <!-- Footer Start-->
+    <div class="container-fluid bg-success mt-4 position-absolute bottom">
+      <h5 class="py-4 text-white text-center">Hellofooter!</h5>
+    </div>
+    <!-- Footer End-->
   </div>
 </body>
 </html>
