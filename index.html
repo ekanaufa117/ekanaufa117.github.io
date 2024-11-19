@@ -18,11 +18,25 @@
     h3{
       font-family: Franklin Gothic;
     }
+    nav.navbar {
+      display: none;
+    }
+    @media (max-width: 576px) {
+      nav.navbar {
+        display: block;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+      }
+       
+      
+      
+    }
   </style>
 </head>
 
 <body class="bg-dark">
-  <nav class="navbar navbar-expand-xxl navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-xxl navbar-dark bg-dark position-sticky top-0">
     <div class="container-fluid">
       <a class="navbar-brand" href="#Home">Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
